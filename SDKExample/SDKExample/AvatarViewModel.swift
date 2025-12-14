@@ -4,7 +4,7 @@ import AvatarKit
 
 @MainActor class AvatarViewModel: ObservableObject {
     // see: https://docs.spatialreal.ai/overview/test-avatars
-    private let avatarID: String = ""
+    let avatarID: String = ""
     
     @Published var isLoading: Bool = false
     @Published var progress: Double = 0.0
