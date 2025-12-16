@@ -18382,42 +18382,259 @@
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 347,
       "length": 20,
       "value": "\"AvatarKitResources\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 250,
+      "offset": 377,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 525,
+      "offset": 749,
+      "length": 27,
+      "value": "\"AvatarKitResources.bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 37,
+      "value": "\"Resources\/AvatarKitResources.bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 20,
+      "value": "\"AvatarKitResources\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 20,
+      "value": "\"AvatarKitResources\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 20,
+      "value": "\"AvatarKitResources\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2361,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2623,
+      "length": 27,
+      "value": "\"AvatarKitResources.bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 5692,
       "length": 21,
       "value": "\"AvatarKit_AvatarKit\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "Array",
-      "offset": 1193,
+      "offset": 6096,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1720,
+      "offset": 6407,
       "length": 9,
       "value": "\".bundle\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 6907,
+      "length": 46,
+      "value": "\"AvatarBundle: Failed to find resource bundle\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 6969,
+      "length": 78,
+      "value": "\"AvatarBundle: Bundle for class: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7046,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7063,
+      "length": 101,
+      "value": "\"AvatarBundle: Bundle resourceURL: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7180,
+      "length": 54,
+      "value": "\"AvatarBundle: Main bundle: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7250,
+      "length": 93,
+      "value": "\"AvatarBundle: privateFrameworksURL: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7536,
+      "length": 22,
+      "value": "\"avatar_kit.framework\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7578,
+      "length": 69,
+      "value": "\"AvatarBundle: avatar_kit.framework path: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7781,
+      "length": 58,
+      "value": "\"AvatarBundle: avatar_kit.framework contents: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7975,
+      "length": 21,
+      "value": "\"AvatarKit.framework\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8016,
+      "length": 67,
+      "value": "\"AvatarBundle: AvatarKit.framework path: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8082,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8216,
+      "length": 57,
+      "value": "\"AvatarBundle: AvatarKit.framework contents: \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8272,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8342,
+      "length": 28,
+      "value": "\"AvatarBundle: All bundles:\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8427,
+      "length": 21,
+      "value": "\"  - \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8447,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8480,
       "length": 49,
       "value": "\"unable to find bundle named AvatarKit_AvatarKit\""
     },
@@ -19082,168 +19299,168 @@
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1102,
+      "offset": 1179,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1107,
+      "offset": 1184,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1150,
+      "offset": 1227,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1192,
+      "offset": 1269,
       "length": 4,
       "value": "3000"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1234,
+      "offset": 1311,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1237,
+      "offset": 1314,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1242,
+      "offset": 1319,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1285,
+      "offset": 1362,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1327,
+      "offset": 1404,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1367,
+      "offset": 1444,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1414,
+      "offset": 1491,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1459,
+      "offset": 1536,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "IntegerLiteral",
-      "offset": 1496,
+      "offset": 1573,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1738,
       "length": 5,
       "value": "\"CLS\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1714,
+      "offset": 1791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1787,
+      "offset": 1864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1970,
       "length": 77,
       "value": "\"Succeeded to send logs to cls. Topic id: \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1945,
+      "offset": 2022,
       "length": 1,
       "value": "\". Request id: \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2044,
       "length": 1,
       "value": "\". \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2022,
+      "offset": 2099,
       "length": 92,
       "value": "\"Failed to send logs to cls. Topic id: \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2071,
+      "offset": 2148,
       "length": 1,
       "value": "\". Request id: \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2170,
       "length": 1,
       "value": "\". Result: \""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2112,
+      "offset": 2189,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "Dictionary",
-      "offset": 4678,
+      "offset": 4755,
       "length": 3,
       "value": "[]"
     },

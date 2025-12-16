@@ -14,9 +14,6 @@ struct App: SwiftUI.App {
             configuration: configuration
         )
         AvatarSDK.userID = ""
-        if !AvatarSDK.supportsCurrentDevice {
-            assertionFailure()
-        }
     }
     
     var body: some Scene {

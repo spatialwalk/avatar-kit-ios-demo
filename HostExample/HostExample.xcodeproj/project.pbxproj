@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81D7B38A2EEEB6DF0071D83D /* AvatarKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D7B3892EEEB6DF0071D83D /* AvatarKit.xcframework */; };
+		813A8E232EF0F2CF00DC0016 /* AvatarKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D7B3892EEEB6DF0071D83D /* AvatarKit.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D7B38A2EEEB6DF0071D83D /* AvatarKit.xcframework in Frameworks */,
+				813A8E232EF0F2CF00DC0016 /* AvatarKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +70,7 @@
 				81D7B3182EEE955D0071D83D /* Sources */,
 				81D7B3192EEE955D0071D83D /* Frameworks */,
 				81D7B31A2EEE955D0071D83D /* Resources */,
+				81D7B3A02EEF000000000001 /* Copy AvatarKit Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +129,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81D7B3A02EEF000000000001 /* Copy AvatarKit Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy AvatarKit Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XCFRAMEWORK_PATH=\"${PROJECT_DIR}/../AvatarKit.xcframework\"\n\nif [ \"${PLATFORM_NAME}\" = \"iphonesimulator\" ]; then\n  ARCH_DIR=\"ios-arm64-simulator\"\nelse\n  ARCH_DIR=\"ios-arm64\"\nfi\n\nRESOURCE_BUNDLE=\"${XCFRAMEWORK_PATH}/${ARCH_DIR}/AvatarKit.framework/AvatarKitResources.bundle\"\n\nif [ -d \"${RESOURCE_BUNDLE}\" ]; then\n  cp -R \"${RESOURCE_BUNDLE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/\"\n  echo \"Copied AvatarKitResources.bundle to ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/\"\nelse\n  echo \"Warning: Resource bundle not found at ${RESOURCE_BUNDLE}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81D7B3182EEE955D0071D83D /* Sources */ = {
@@ -267,6 +289,7 @@
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Avatar;
@@ -317,6 +340,7 @@
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Avatar;
