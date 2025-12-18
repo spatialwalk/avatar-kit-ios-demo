@@ -120,6 +120,7 @@ public enum ConnectionState : Swift.Sendable {
 }
 public enum ConversationState : Swift.String, Swift.Sendable {
   case idle
+  case paused
   case playing
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)

@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/jichuan/Documents/Codes/Spatial-Walk-Apple/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/DefaultGSShaders.metal \
-  /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.2.54.0.snnCyl/Metal.xctoolchain/usr/metal/32023/lib/clang/32023.830/include/metal/module.modulemap \
-  /Users/jichuan/Documents/Codes/Spatial-Walk-Apple/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/Covariance.h \
-  /Users/jichuan/Documents/Codes/Spatial-Walk-Apple/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/MetalTypes.h
+  /Users/jichuan/Downloads/Spatial-Walk-Apple-main/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/DefaultGSShaders.metal \
+  /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.2.54.0.cF7ade/Metal.xctoolchain/usr/metal/32023/lib/clang/32023.830/include/metal/module.modulemap \
+  /Users/jichuan/Downloads/Spatial-Walk-Apple-main/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/Covariance.h \
+  /Users/jichuan/Downloads/Spatial-Walk-Apple-main/AvatarKit/Sources/AvatarKit/Core/GSCore/Resources/MetalTypes.h

@@ -3009,6 +3009,43 @@
           },
           {
             "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AvatarKit.ConversationState.Type) -> AvatarKit.ConversationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConversationState",
+                    "printedName": "AvatarKit.ConversationState",
+                    "usr": "s:9AvatarKit17ConversationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AvatarKit.ConversationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConversationState",
+                        "printedName": "AvatarKit.ConversationState",
+                        "usr": "s:9AvatarKit17ConversationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9AvatarKit17ConversationStateO6pausedyA2CmF",
+            "mangledName": "$s9AvatarKit17ConversationStateO6pausedyA2CmF",
+            "moduleName": "AvatarKit"
+          },
+          {
+            "kind": "Var",
             "name": "playing",
             "printedName": "playing",
             "children": [
@@ -18216,1792 +18253,1666 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
       "kind": "FloatLiteral",
       "offset": 114,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
       "kind": "BooleanLiteral",
       "offset": 267,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
       "kind": "BooleanLiteral",
       "offset": 510,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Animation.swift",
       "kind": "IntegerLiteral",
       "offset": 556,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "IntegerLiteral",
       "offset": 386,
       "length": 5,
       "value": "16000"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "IntegerLiteral",
       "offset": 403,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2039,
       "length": 13,
       "value": "\"characterId\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2080,
       "length": 9,
       "value": "\"version\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2119,
       "length": 11,
       "value": "\"createdAt\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2160,
       "length": 11,
       "value": "\"updatedAt\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2198,
       "length": 8,
       "value": "\"models\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2237,
       "length": 12,
       "value": "\"animations\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2276,
       "length": 8,
       "value": "\"camera\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2315,
       "length": 12,
       "value": "\"background\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 2356,
       "length": 19,
       "value": "\"characterSettings\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 3211,
       "length": 8,
       "value": "\"camera\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 3252,
       "length": 10,
       "value": "\"eyefocus\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 5299,
       "length": 9,
       "value": "\"enabled\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 5343,
       "length": 24,
       "value": "\"auto_eyelid_adjustment\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 5397,
       "length": 18,
       "value": "\"eyelid_threshold\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Avatar.swift",
       "kind": "StringLiteral",
       "offset": 5443,
       "length": 9,
       "value": "\"targets\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 220,
       "length": 20,
       "value": "\"AvatarKitResources\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 377,
+      "offset": 250,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 749,
+      "offset": 543,
       "length": 27,
       "value": "\"AvatarKitResources.bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 750,
       "length": 37,
       "value": "\"Resources\/AvatarKitResources.bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1165,
       "length": 20,
       "value": "\"AvatarKitResources\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
+      "offset": 1195,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1801,
+      "offset": 1447,
       "length": 20,
       "value": "\"AvatarKitResources\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 1477,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 2331,
+      "offset": 1847,
       "length": 20,
       "value": "\"AvatarKitResources\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 2361,
+      "offset": 1877,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 2623,
+      "offset": 2105,
       "length": 27,
       "value": "\"AvatarKitResources.bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 5692,
+      "offset": 4848,
       "length": 21,
       "value": "\"AvatarKit_AvatarKit\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "Array",
-      "offset": 6096,
+      "offset": 5260,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 6407,
+      "offset": 5587,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
       "kind": "StringLiteral",
-      "offset": 6907,
-      "length": 46,
-      "value": "\"AvatarBundle: Failed to find resource bundle\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 6969,
-      "length": 78,
-      "value": "\"AvatarBundle: Bundle for class: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7046,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7063,
-      "length": 101,
-      "value": "\"AvatarBundle: Bundle resourceURL: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7163,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7180,
-      "length": 54,
-      "value": "\"AvatarBundle: Main bundle: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7233,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7250,
-      "length": 93,
-      "value": "\"AvatarBundle: privateFrameworksURL: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7342,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7536,
-      "length": 22,
-      "value": "\"avatar_kit.framework\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7578,
-      "length": 69,
-      "value": "\"AvatarBundle: avatar_kit.framework path: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7646,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7781,
-      "length": 58,
-      "value": "\"AvatarBundle: avatar_kit.framework contents: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7838,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 7975,
-      "length": 21,
-      "value": "\"AvatarKit.framework\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8016,
-      "length": 67,
-      "value": "\"AvatarBundle: AvatarKit.framework path: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8082,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8216,
-      "length": 57,
-      "value": "\"AvatarBundle: AvatarKit.framework contents: \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8272,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8342,
-      "length": 28,
-      "value": "\"AvatarBundle: All bundles:\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8427,
-      "length": 21,
-      "value": "\"  - \""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8447,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/AvatarBundle.swift",
-      "kind": "StringLiteral",
-      "offset": 8480,
+      "offset": 5859,
       "length": 49,
       "value": "\"unable to find bundle named AvatarKit_AvatarKit\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarCache.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarCache.swift",
       "kind": "StringLiteral",
       "offset": 97,
       "length": 13,
       "value": "\"AvatarCache\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
       "kind": "StringLiteral",
       "offset": 110,
       "length": 18,
       "value": "\"AvatarController\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 52,
+      "value": "\"Connection state did change to \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 56,
+      "value": "\"Conversation state did change to \""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3781,
+      "offset": 3828,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5185,
+      "offset": 5232,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarDownloader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarDownloader.swift",
       "kind": "IntegerLiteral",
       "offset": 7899,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
       "kind": "Dictionary",
       "offset": 106,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
       "kind": "Array",
       "offset": 955,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/AvatarLoadCoordinator.swift",
       "kind": "Array",
       "offset": 1028,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/AvatarPlayer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/AvatarPlayer.swift",
       "kind": "StringLiteral",
       "offset": 128,
       "length": 14,
       "value": "\"AvatarPlayer\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/AvatarPlayer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/AvatarPlayer.swift",
       "kind": "BooleanLiteral",
-      "offset": 1872,
+      "offset": 1974,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
       "kind": "StringLiteral",
       "offset": 289,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 477,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
       "kind": "StringLiteral",
       "offset": 1854,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarSDK.swift",
       "kind": "StringLiteral",
       "offset": 2004,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/AvatarView.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/AvatarView.swift",
       "kind": "BooleanLiteral",
       "offset": 253,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/BufferEngine.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/BufferEngine.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 8,
       "value": "\"Render\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/ConfigService.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
       "offset": 89,
       "length": 15,
       "value": "\"ConfigService\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
       "kind": "BooleanLiteral",
       "offset": 159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
       "kind": "Array",
       "offset": 209,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
       "kind": "IntegerLiteral",
       "offset": 248,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Models\/Conversation.swift",
       "kind": "BooleanLiteral",
       "offset": 1539,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/DataConvertible.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/DataConvertible.swift",
       "kind": "IntegerLiteral",
       "offset": 751,
       "length": 2,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/DataConvertible.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/DataConvertible.swift",
       "kind": "IntegerLiteral",
       "offset": 757,
       "length": 2,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "BooleanLiteral",
       "offset": 1491,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1638,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1674,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1710,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1745,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1780,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1814,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 1852,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "Array",
       "offset": 2003,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 2659,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4003,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4019,
       "length": 21,
       "value": "\"MESSAGE_UNSPECIFIED\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4051,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4067,
       "length": 15,
       "value": "\"MESSAGE_ERROR\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4093,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4112,
       "length": 35,
       "value": "\"MESSAGE_SERVER_RESPONSE_ANIMATION\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4158,
       "length": 4,
       "value": "2003"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4177,
       "length": 28,
       "value": "\"MESSAGE_CLIENT_AUDIO_INPUT\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4392,
       "length": 22,
       "value": "\"ClientAudioInputData\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4484,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4504,
       "length": 8,
       "value": "\"req_id\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4523,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4539,
       "length": 7,
       "value": "\"audio\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 4557,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 4573,
       "length": 5,
       "value": "\"end\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6096,
       "length": 10,
       "value": "\"Keyframe\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6176,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6192,
       "length": 13,
       "value": "\"translation\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6216,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6232,
       "length": 10,
       "value": "\"rotation\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6253,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6273,
       "length": 11,
       "value": "\"neck_pose\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6295,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6315,
       "length": 10,
       "value": "\"jaw_pose\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6336,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6356,
       "length": 10,
       "value": "\"eye_pose\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6377,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6393,
       "length": 8,
       "value": "\"eyelid\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 6412,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 6428,
       "length": 12,
       "value": "\"expression\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 9102,
       "length": 16,
       "value": "\"FrameAnimation\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 9188,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 9204,
       "length": 11,
       "value": "\"keyframes\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 10246,
       "length": 29,
       "value": "\"ServerResponseAnimationData\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 10345,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 10365,
       "length": 8,
       "value": "\"req_id\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 10384,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 10400,
       "length": 11,
       "value": "\"animation\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 11716,
       "length": 11,
       "value": "\"ErrorInfo\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 11797,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 11817,
       "length": 8,
       "value": "\"req_id\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 11836,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 11852,
       "length": 6,
       "value": "\"code\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 11869,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 11885,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 13398,
       "length": 9,
       "value": "\"Message\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 13477,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 13493,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 13510,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 13526,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 13544,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 13564,
       "length": 27,
       "value": "\"server_response_animation\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 13602,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/Driving.pb.swift",
       "kind": "StringLiteral",
       "offset": 13622,
       "length": 20,
       "value": "\"client_audio_input\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Services\/DrivingService.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
       "kind": "FloatLiteral",
       "offset": 90,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Player\/FrameRateController.swift",
       "kind": "IntegerLiteral",
       "offset": 232,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/Logger.swift",
       "kind": "Dictionary",
-      "offset": 5239,
+      "offset": 5250,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 726,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/MetalBuffer.swift",
       "kind": "IntegerLiteral",
       "offset": 921,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 16,
       "value": "\"yyyyMMddHHmmss\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 5,
       "value": "\"UTC\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Utils\/NanoID.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYHeader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYHeader.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 22,
       "value": "\"binary_little_endian\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYHeader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYHeader.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 19,
       "value": "\"binary_big_endian\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3331,
       "length": 33,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3361,
       "length": 1,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3421,
       "length": 39,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3457,
       "length": 1,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 3720,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 3725,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3776,
       "length": 4,
       "value": "\"\r\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3819,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3865,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3941,
       "length": 5,
       "value": "\"ply\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 3969,
       "length": 8,
       "value": "\"format\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 4001,
       "length": 9,
       "value": "\"comment\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 4034,
       "length": 9,
       "value": "\"element\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 4068,
       "length": 10,
       "value": "\"property\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "StringLiteral",
       "offset": 4104,
       "length": 12,
       "value": "\"end_header\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 4550,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 4595,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 4647,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "Array",
       "offset": 4706,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/PLYReader.swift",
       "kind": "IntegerLiteral",
       "offset": 29649,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "StringLiteral",
       "offset": 110,
       "length": 8,
       "value": "\"Render\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 421,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1798,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1810,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1821,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1833,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1938,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1950,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1961,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1973,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "BooleanLiteral",
       "offset": 1670,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 2271,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 2276,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 2281,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2353,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2376,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2379,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2382,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 8,
       "value": "\"Render\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
       "kind": "BooleanLiteral",
       "offset": 250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Views\/Splat2DView.swift",
       "kind": "IntegerLiteral",
       "offset": 340,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatBufferManager.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatBufferManager.swift",
       "kind": "Array",
       "offset": 637,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatBufferManager.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatBufferManager.swift",
       "kind": "Array",
       "offset": 685,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "BooleanLiteral",
       "offset": 1281,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1390,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1429,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1627,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1630,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1633,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1780,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1783,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 1786,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "StringLiteral",
       "offset": 4611,
       "length": 8,
       "value": "\"vertex\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4686,
       "length": 7,
       "value": "[\"x\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4725,
       "length": 7,
       "value": "[\"y\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4764,
       "length": 7,
       "value": "[\"z\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4801,
       "length": 15,
       "value": "[\"nx\", \"nxx\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4846,
       "length": 8,
       "value": "[\"ny\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4884,
       "length": 8,
       "value": "[\"nz\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4920,
       "length": 12,
       "value": "[\"f_dc_0\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 4960,
       "length": 12,
       "value": "[\"f_dc_1\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5000,
       "length": 12,
       "value": "[\"f_dc_2\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "StringLiteral",
       "offset": 5059,
       "length": 9,
       "value": "\"f_rest_\""
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5097,
       "length": 9,
       "value": "[\"red\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5135,
       "length": 11,
       "value": "[\"green\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5175,
       "length": 10,
       "value": "[\"blue\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5214,
       "length": 13,
       "value": "[\"scale_0\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5256,
       "length": 13,
       "value": "[\"scale_1\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5298,
       "length": 13,
       "value": "[\"scale_2\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5341,
       "length": 13,
       "value": "[\"opacity\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5386,
       "length": 11,
       "value": "[\"rot_0\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5429,
       "length": 11,
       "value": "[\"rot_1\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5472,
       "length": 11,
       "value": "[\"rot_2\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5515,
       "length": 11,
       "value": "[\"rot_3\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "Array",
       "offset": 5557,
       "length": 15,
       "value": "[\"binding_0\"]"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/SplatIO\/SplatPLYSceneReader.swift",
       "kind": "IntegerLiteral",
       "offset": 5889,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "BooleanLiteral",
       "offset": 633,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 760,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 786,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "BooleanLiteral",
       "offset": 1088,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "BooleanLiteral",
       "offset": 1251,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1427,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1439,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1450,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "FloatLiteral",
       "offset": 1462,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2111,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2142,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2405,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2411,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/GSCore\/SplatRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 2417,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/UnsafeRawPointerConvertible.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/UnsafeRawPointerConvertible.swift",
       "kind": "IntegerLiteral",
       "offset": 686,
       "length": 2,
       "value": "42"
     },
     {
-      "filePath": "\/Users\/jichuan\/Documents\/Codes\/Spatial-Walk-Apple\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/UnsafeRawPointerConvertible.swift",
+      "filePath": "\/Users\/jichuan\/Downloads\/Spatial-Walk-Apple-main\/AvatarKit\/Sources\/AvatarKit\/Core\/PLYIO\/UnsafeRawPointerConvertible.swift",
       "kind": "IntegerLiteral",
       "offset": 692,
       "length": 2,
