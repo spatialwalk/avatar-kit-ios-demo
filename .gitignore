@@ -4,6 +4,7 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 .build/
+.DS_Store
 AvatarKit.xcframework.zip
 AvatarKit.xcframework
 .avatarkit_checksum
