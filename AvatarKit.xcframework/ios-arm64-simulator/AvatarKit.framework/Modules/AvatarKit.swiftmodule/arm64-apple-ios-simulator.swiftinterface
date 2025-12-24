@@ -26,8 +26,10 @@ public struct Avatar : Swift.Sendable {
   @_Concurrency.MainActor final public func start()
   @discardableResult
   @_Concurrency.MainActor final public func send(_ audioData: Foundation.Data, end: Swift.Bool = false) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
-  @_Concurrency.MainActor final public func yield(_ audioData: Foundation.Data, end: Swift.Bool = false) -> Swift.String
+  @_Concurrency.MainActor final public func yield(_ audioData: Foundation.Data, end: Swift.Bool = false, audioFormat: AvatarKit.AudioFormat? = nil) -> Swift.String
+  #endif
   @_Concurrency.MainActor final public func yield(_ animations: [Foundation.Data], conversationID: Swift.String)
   @_Concurrency.MainActor final public func interrupt()
   @_Concurrency.MainActor final public func close()
@@ -71,11 +73,13 @@ public typealias ProgressHandler = @_Concurrency.MainActor @Sendable (Foundation
   }
   @_Concurrency.MainActor public static func benchmark() async -> Swift.Int
 }
-public struct Configuration : Swift.Sendable {
+public struct Configuration : Swift.Equatable, Swift.Sendable {
   public let environment: AvatarKit.Environment
+  public let audioFormat: AvatarKit.AudioFormat
   public let drivingServiceMode: AvatarKit.DrivingServiceMode
   public let logLevel: AvatarKit.LogLevel
-  public init(environment: AvatarKit.Environment, drivingServiceMode: AvatarKit.DrivingServiceMode = .sdk, logLevel: AvatarKit.LogLevel = .off)
+  public init(environment: AvatarKit.Environment, audioFormat: AvatarKit.AudioFormat = .init(), drivingServiceMode: AvatarKit.DrivingServiceMode = .sdk, logLevel: AvatarKit.LogLevel = .off)
+  public static func == (a: AvatarKit.Configuration, b: AvatarKit.Configuration) -> Swift.Bool
 }
 public enum Environment : Swift.String, Swift.Sendable {
   case intl
@@ -87,6 +91,12 @@ public enum Environment : Swift.String, Swift.Sendable {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct AudioFormat : Swift.Equatable, Swift.Sendable {
+  public let channelCount: Swift.Int
+  public let sampleRate: Swift.Int
+  public init(sampleRate: Swift.Int = 16000)
+  public static func == (a: AvatarKit.AudioFormat, b: AvatarKit.AudioFormat) -> Swift.Bool
 }
 public enum DrivingServiceMode : Swift.String, Swift.Sendable {
   case sdk
@@ -130,8 +140,17 @@ public enum ConversationState : Swift.String, Swift.Sendable {
     get
   }
 }
+public struct Transform : Swift.Equatable, Swift.Sendable {
+  public static let identity: AvatarKit.Transform
+  public let x: Swift.Float
+  public let y: Swift.Float
+  public let scale: Swift.Float
+  public init(x: Swift.Float = 0.0, y: Swift.Float = 0.0, scale: Swift.Float = 1.0)
+  public static func == (a: AvatarKit.Transform, b: AvatarKit.Transform) -> Swift.Bool
+}
 public enum AvatarError : Swift.String, Foundation.LocalizedError {
   case appIDUnrecognized
+  case avatarIDUnrecognized
   case sessionTokenInvalid
   case sessionTokenExpired
   case failedToFetchAvatarMetadata
@@ -162,9 +181,10 @@ public enum AvatarError : Swift.String, Foundation.LocalizedError {
     @objc get
     @objc set
   }
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency final public func setBackgroundImage(_ image: UIKit.UIImage?)
-  #endif
+  @_Concurrency.MainActor @preconcurrency final public var contentTransform: AvatarKit.Transform {
+    get
+    set
+  }
   @objc deinit
 }
 public protocol BitPatternRepresentible {

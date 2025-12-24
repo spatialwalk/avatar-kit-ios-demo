@@ -3,17 +3,18 @@ import Combine
 import AvatarKit
 
 @MainActor class AvatarViewModel: ObservableObject {
-    // see: https://docs.spatialreal.ai/overview/test-avatars
-    let avatarID: String = ""
-    
-    @Published var isLoading: Bool = false
-    @Published var progress: Double = 0.0
-    @Published var errorMessage: String?
     @Published var conversationState: String = "\(ConversationState.idle)"
+    @Published var errorMessage: String?
     
-    @Published var avatar: Avatar?
+    let avatar: Avatar
+    let mockData: MockData
+    let sampleRate: Int
     
-    @Published var mockData: MockData?
+    init(avatar: Avatar, mockData: MockData, sampleRate: Int) {
+        self.avatar = avatar
+        self.mockData = mockData
+        self.sampleRate = sampleRate
+    }
     
     private var avatarController: AvatarController?
     
@@ -27,69 +28,19 @@ import AvatarKit
         }
     }
     
-    func loadAvatar() {
-        progress = 0.0
-        errorMessage = nil
-        
-        if let cachedAvatar = AvatarManager.shared.retrieve(id: avatarID) {
-            avatar = cachedAvatar
-            Task.detached(priority: .background) { [weak self] in
-                guard let self else { return }
-                _ = try await AvatarManager.shared.load(id: avatarID)
-            }
-        } else {
-            Task(priority: .userInitiated) {
-                do {
-                    isLoading = true
-                    defer { isLoading = false }
-                    avatar = try await AvatarManager.shared.load(id: avatarID) { [weak self] progressInfo in
-                        self?.progress = progressInfo.fractionCompleted
-                    }
-                } catch {
-                    errorMessage = error.localizedDescription
-                }
-            }
-        }
-    }
-    
-    func loadMockData() {
-        Task {
-            do {
-                mockData = try await MockDataService.fetch()
-            } catch {
-                errorMessage = error.localizedDescription
-            }
-        }
-    }
-    
     func mockPlayback() {
-        guard let mockData, let avatarController else { return }
+        guard let avatarController else { return }
         
-        let conversationID = avatarController.yield(mockData.audioData, end: true)
+        let conversationID = avatarController.yield(
+            mockData.audioData,
+            end: true,
+            audioFormat: AudioFormat(sampleRate: sampleRate)
+        )
+        
         avatarController.yield(mockData.animationsDataList, conversationID: conversationID)
     }
     
     func interrupt() {
         avatarController?.interrupt()
-    }
-}
-
-struct MockData: Codable {
-    let audio: String
-    let animations: [String]
-    
-    var audioData: Data { Data(base64Encoded: audio)! }
-    var animationsDataList: [Data] { animations.map { Data(base64Encoded: $0)! } }
-}
-
-enum MockDataService {
-    static func fetch() async throws -> MockData {
-        let urlString = "https://avatar-sdk-go-test.spatialwalk.cn/media"
-        var request = URLRequest(url: URL(string: urlString)!)
-        request.httpMethod = "GET"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        let (data, _) = try await URLSession.shared.data(for: request)
-        let mockData = try JSONDecoder().decode(MockData.self, from: data)
-        return mockData
     }
 }
