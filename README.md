@@ -31,7 +31,3 @@ open Example.xcworkspace
 #### 3. Build and Run
 1. Select the `SDKExample/HostExample` scheme
 2. Press ⌘R in Xcode
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
