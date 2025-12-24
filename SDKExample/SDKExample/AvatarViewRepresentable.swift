@@ -7,8 +7,8 @@ struct AvatarViewRepresentable: UIViewRepresentable {
     
     func makeUIView(context: Context) -> AvatarView {
         let avatarView = AvatarView(avatar: avatar)
-        // avatarView.isOpaque = false
-        avatarView.setBackgroundImage(UIImage(contentsOfFile: Bundle.main.path(forResource: "background", ofType: "jpeg")!))
+        avatarView.isOpaque = false
+        avatarView.contentTransform = .identity
         onCreated(avatarView.avatarController)
         return avatarView
     }
