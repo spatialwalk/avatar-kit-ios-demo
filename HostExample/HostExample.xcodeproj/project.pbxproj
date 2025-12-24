@@ -298,7 +298,7 @@
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "$(PROJECT_DIR)/AvatarKit.xcframework/ios-arm64";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/AvatarKit.xcframework/ios-arm64-simulator";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Avatar;
+				INFOPLIST_KEY_CFBundleDisplayName = "AvatarKit Demo";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -353,7 +353,7 @@
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "$(PROJECT_DIR)/AvatarKit.xcframework/ios-arm64";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(PROJECT_DIR)/AvatarKit.xcframework/ios-arm64-simulator";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Avatar;
+				INFOPLIST_KEY_CFBundleDisplayName = "AvatarKit Demo";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
