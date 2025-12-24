@@ -320,7 +320,7 @@
 					"-framework",
 					AvatarKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ai.spatialwalk.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.spatialwalk.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -375,7 +375,7 @@
 					"-framework",
 					AvatarKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ai.spatialwalk.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.spatialwalk.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
