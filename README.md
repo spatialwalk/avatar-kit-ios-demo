@@ -2,10 +2,10 @@
 
 The xcworkspace contains two example applications demonstrating different use cases of the AvatarKit:
 
-- **SDKExample**: Demonstrates sdk driving service mode
-- **HostExample**: Demonstrates host driving service mode
+- SDKExample: Demonstrates sdk driving service mode
+- HostExample: Demonstrates host driving service mode
 
-For more details, see the [AvatarKit Docs](https://docs.spatialreal.ai).
+[AvatarKit Docs](https://docs.spatialreal.ai)
 
 ### Requirements
 
