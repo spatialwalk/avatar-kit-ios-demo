@@ -4,22 +4,21 @@ import AvatarKit
 @main
 struct App: SwiftUI.App {
     init() {
-        let configuration = Configuration(
-            environment: .intl,
-            drivingServiceMode: .sdk,
-            logLevel: .off
-        )
         AvatarSDK.initialize(
             appID: "YOUR_APP_ID",
-            configuration: configuration
+            configuration: Configuration(
+                environment: .intl,
+                audioFormat: AudioFormat(sampleRate: 32000),
+                drivingServiceMode: .sdk,
+                logLevel: .all
+            )
         )
-        AvatarSDK.sessionToken = ""
         AvatarSDK.userID = ""
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
         }
     }
 }
