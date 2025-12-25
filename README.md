@@ -15,19 +15,21 @@ For more details, see the [AvatarKit Docs](https://docs.spatialreal.ai).
 
 ### Usage
 
-#### 1. Clone the Repository
+#### Clone the Repository
 
 ```bash
 git clone https://github.com/spatialwalk/avatar-kit-ios-demo.git
 cd avatar-kit-ios-demo
 ```
 
-#### 2. Open the xcworkspace
+#### Open the xcworkspace
 
 ```bash
 open Example.xcworkspace
 ```
 
-#### 3. Build and Run
+#### Build and Run
 1. Select the `SDKExample/HostExample` scheme
-2. Press ⌘R in Xcode
+2. Replace the `YOUR_APP_ID`
+3. Choose an iOS simulator
+4. Press ⌘R in Xcode
